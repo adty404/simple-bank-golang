@@ -17,4 +17,4 @@ sqlc:
 	sqlc generate
 
 # PHONY is used to tell make that these are not files
-.PHONY: postgres createdb dropdb migrateup migratedownubu
+.PHONY: postgres createdb dropdb migrateup migratedown
