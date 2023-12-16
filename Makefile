@@ -16,5 +16,8 @@ migratedown:
 sqlc:
 	sqlc generate
 
+test:
+	go test -v -cover ./...
+
 # PHONY is used to tell make that these are not files
 .PHONY: postgres createdb dropdb migrateup migratedown
